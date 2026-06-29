@@ -1,0 +1,47 @@
+canonical_identifier: bkk:krp/KR3c0003/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3c0003/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 鄧析子
+  identifiers:
+    krp: KR3c0003
+  tags:
+    tls-dates: dat05000
+    kr-categories: KR3c
+    tls-internal: swl
+  source:
+    repository: tls-texts
+    path: data/tls/KR3c0003.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3c0003_001-CHANT.yaml, hash: 'sha256:1b92d83ce116613575f17c347374eeded2380a58cecc5f7347f2ed925f0b3ea6'}
+  - {seq: 2, filename: KR3c0003_002-CHANT.yaml, hash: 'sha256:4cbcc32b42fd282a28392dedd42f40cf9cf5f1cd1dac5c9f7c00dcc019d99d56'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3c0003_001-CHANT.markers.yaml, hash: 'sha256:e915df9059f567066085b9f9ac9d4ee5cf8390af289d972cc2f1264a2998debe'}
+  - {seq: 2, role: markers, filename: assets/KR3c0003_002-CHANT.markers.yaml, hash: 'sha256:737708e02fb7a521f5832de8bd646b1ddcc7ab8260ac7f9f788595825cb8b69e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3c0003_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1621
+  label: 無厚篇
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3c0003_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 1506
+  label: 轉辭篇
+  type: section
+  level: 1
+hash: sha256:d08f84d604bab2cae2cd261844ae98cdad5cb5b7934d5543926268ce682ab32e

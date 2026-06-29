@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR3c0003/v1
+canonical_location: https://kanripo.org/bkk/KR3c0003/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 鄧析子
+  identifiers:
+    krp: KR3c0003
+  tags:
+    tls-dates: dat05000
+    kr-categories: KR3c
+    tls-internal: swl
+  source:
+    repository: tls-texts
+    path: data/tls/KR3c0003.xml
+  edition:
+    short: bkk
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+- short: WYG
+  label: 【四庫全書・文淵閣】
+- short: krp
+assets:
+  parts:
+  - {seq: 1, filename: KR3c0003_001.yaml, hash: 'sha256:e8d658f94410d674127f9ab10f9ea50244a4cc86240fa87ac040fa2087407441'}
+  - {seq: 2, filename: KR3c0003_002.yaml, hash: 'sha256:6095ebcf598b47bc71d1af467af8f7666cff497d8a87760854dd02ffbc5e0265'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3c0003_001.markers.yaml, hash: 'sha256:465b072281ad859f5e959c6cfc07078d16ed8491fb7fef9000dc0cc56262705c'}
+  - {seq: 2, role: markers, filename: assets/KR3c0003_002.markers.yaml, hash: 'sha256:d4a551b5910ddd356c32b47df1e2cbb6693acd0d0deacae9831ac98fc9a2bd86'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3c0003_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1621
+  label: 無厚篇
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3c0003_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 1506
+  label: 轉辭篇
+  type: section
+  level: 1
+hash: sha256:ac025ce222088c6ee72416d56978c5965ec2496e11ff43961902ca670546f030
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
