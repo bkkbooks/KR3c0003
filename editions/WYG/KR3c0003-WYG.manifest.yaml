@@ -20,7 +20,7 @@ assets:
   - {seq: 0, filename: KR3c0003_000-WYG.yaml, hash: 'sha256:0a9bf58ab21791c0439562e43fbb1907e267673256f6a9134ba96003969a1fd4'}
   - {seq: 1, filename: KR3c0003_001-WYG.yaml, hash: 'sha256:92579cf49c38dc846afd9043e5ec3c0b7446137d755bca05c9bce515a2811bd3'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR3c0003_000-WYG.markers.yaml, hash: 'sha256:dd78140f6db443763c6e9a477ec879fdaf00544421a65ebbee1a1644b4bc78b3'}
+  - {seq: 0, role: markers, filename: assets/KR3c0003_000-WYG.markers.yaml, hash: 'sha256:b8dba03e6d56321f66caf5ba24095a120064a8945eef6b38f6fef6169544e262'}
   - {seq: 1, role: markers, filename: assets/KR3c0003_001-WYG.markers.yaml, hash: 'sha256:70f72d02a16e9d5e495a0709b4266348a3ca75fd8ec54f3e7c00ca55415575d9'}
 table_of_contents:
 - ref:
@@ -53,4 +53,4 @@ table_of_contents:
   label: 鄧子
   type: section
   level: 1
-hash: sha256:318bffc9f3e16b6d4f8dd3b86558efcae67a5a0aade9da2273c82e66acaa4ad0
+hash: sha256:0a897adb7ab5bd84b63a56af0ecd796d914db5db5e4a27319eab552e064e31fd
